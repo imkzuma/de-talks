@@ -1,0 +1,75 @@
+.Header{
+    font-family: var(--Nunito); 
+    background-image: url("../img/bg-header.png"); 
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 20vh;
+}
+
+.arrow{padding-left: 10px;}
+.col-img-header{overflow: hidden;}
+
+.col-text-header h1{font-weight: 900; color: white;}
+.col-text-header h1 span{
+    background: linear-gradient(90deg, #FB067F 0%, #DD3EF2 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text; text-fill-color: transparent;
+}
+.col-text-header p{color: #BB86FF; padding-bottom: 25px;}
+.col-text-header h5{color : #FF427E;}
+
+.btn-header-bg , .btn-header-nobg{ padding: 20px 30px; }
+.btn-header-bg{
+    border-radius: 35px; border: 1px solid #FB067F; 
+    background: linear-gradient(90deg, #FB067F 0%, #DD3EF2 100%); 
+    transition: .9s ease-out;
+}
+.btn-header-bg:hover{background: linear-gradient(90deg, #FB067F 100%, #DD3EF2 0%); transition: .9s ease-in;}
+
+.btn-header-nobg{
+    background: linear-gradient(90deg, #FB067F 0%, #DD3EF2 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text; text-fill-color: transparent;
+    font-weight: bold; transition: .3s ease-out;
+}
+.btn-header-nobg:hover{
+    background: linear-gradient(90deg, #ffffff 0%, #954c9e 100%); 
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text; text-fill-color: transparent;
+    font-weight: bold; border: 1px solid transparent;
+    transition: .3s ease-in;
+}
+
+@media only screen and (min-width : 300px){
+    .row-header{ padding: 130px 15px 20px; }
+    .btn-header-bg , .btn-header-nobg{ width: 100%; margin-bottom: 10px; }
+    .col-img-header{margin: 0; width: 0; visibility: hidden;}
+    .col-text-header p{font-size: 17px;}
+    .col-text-header h1{font-size: 40px;}
+}
+
+@media only screen and (min-width: 411px){
+    .col-text-header h1{font-size: 50px;}
+}
+
+@media only screen and (min-width : 768px){
+    .col-img-header{width: 100%; visibility: visible; margin-top: 100px; margin-bottom: 50px;}
+    .btn-header-bg , .btn-header-nobg { width: 45%;}
+}
+
+@media only screen and (min-width : 1024px){
+    .col-text-header{width: 50%;}
+    .col-img-header{width: 50%;}
+    .row-header{padding-top: 180px;}
+    .btn-header-bg , .btn-header-nobg{width: auto;}
+}
+
+@media only screen and (min-width : 1440px){
+    .col-img-header{width: 55%; margin: 0; padding: 0;}
+    .row-header{padding: 200px 0px 100px;}
+    .col-text-header{width: 45%;}
+    .col-text-header h1{font-size: 60px;}
+    .col-text-header p{font-size: 20px;}
+    .col-img-header img{width: 100%;}
+}

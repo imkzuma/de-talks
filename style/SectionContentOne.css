@@ -1,0 +1,18 @@
+.Content-One{
+    width: 100%;
+    font-family: var(--Nunito);
+    padding-top: 100px; padding-bottom: 100px;
+}
+
+.judul-content h1{font-weight: 900; color: var(--blue);}
+.judul-content h5{color: var(--pink);}
+
+.row-content-one{margin-top: 15px;}
+
+.col-img-content-one{background-color: grey; height: 20vh; border-radius: 10px;}
+.col-text-content-one{background-color: grey; height: 20vh; border-radius: 10px; }
+
+@media only screen and (min-width : 300px){
+    .Content-One{padding-top: 50px;}
+    .judul-content h1{font-size: 40px;}
+}
