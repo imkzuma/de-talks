@@ -1,8 +1,7 @@
 import { Container , Row , Col , Button } from 'react-bootstrap';
 import "./style/Header.css";
-import Image from '../../img/header-illustration.png';
-import "font-awesome/css/font-awesome.min.css";
 
+import Image from '../../img/header-illustration.png';
 import Circle from '../../img/particle/circle.png';
 import Cube from '../../img/particle/cube.png';
 import Rectangle from '../../img/particle/rectangle.png';

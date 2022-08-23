@@ -13,9 +13,9 @@ export default function SectionAbout(){
     return(
         <div className = "Section-About">
             <Container>
-                <Row className = "section-about-title text-center">
+                <Row className = "section-about-title">
                     <Col lg = {6} className = "mx-auto">
-                        <h1>Kenapa De-Talks Berbeda</h1>
+                        <h1>Kenapa De-Talks Berbeda ?</h1>
                         <p>
                             Saatnya bijak memilih sumber belajar. Tak hanya materi yang terjamin,
                             De-Talks juga memiliki Pengajar profesional yang akan mengajari anda tentang Design.

@@ -15,7 +15,7 @@ export default function SectionContent(){
                     <h1>Software Yang Kami Ajarkan</h1>
                 </div>
                 <Row className = "row-content">
-                    <Col xs = {6}>
+                    <Col sm = {6}>
                         <Row className = 'row-inside-content'>
                             <Col xs = {3} className = 'col-image-content text-center'>
                                 <img src = {Figma} width = "80%" />
@@ -28,7 +28,7 @@ export default function SectionContent(){
                             </Col>
                         </Row>
                     </Col>
-                    <Col xs = {6}>
+                    <Col sm = {6}>
                         <Row className = 'row-inside-content'>
                             <Col xs = {3} className = 'col-image-content text-center'>
                                 <img src = {Photoshop} width = "80%" />
@@ -42,7 +42,7 @@ export default function SectionContent(){
                             </Col>
                         </Row>
                     </Col>
-                    <Col xs = {6}>
+                    <Col sm = {6}>
                         <Row className = 'row-inside-content'>
                             <Col xs = {3} className = 'col-image-content text-center'>
                                 <img src = {Illustrator} width = "80%" />
@@ -56,7 +56,7 @@ export default function SectionContent(){
                             </Col>
                         </Row>
                     </Col>
-                    <Col xs = {6}>
+                    <Col sm = {6}>
                         <Row className = 'row-inside-content'>
                             <Col xs = {3} className = 'col-image-content text-center'>
                                 <img src = {XD} width = "80%" />

@@ -2,13 +2,37 @@
     padding: 80px 0px; font-family: var(--Nunito); 
     background-color: white;
     overflow-x: hidden;
+    z-index: -1;
 }
-.container-section-kelas{background-color: #f4f4f5; padding: 50px 0px 50px 50px; border-radius: 5px;}
+.container-section-kelas{background-color: #f4f4f5; border-radius: 5px;}
+
+.col-text-section-kelas h5{color: var(--pink);}
+.col-text-section-kelas h1{color: var(--blue); font-weight: 700;}
+.col-text-section-kelas p{color: #3f3f46; font-weight: 700;}
+.col-text-section-kelas .item-kelas p{color: #3f3f46; font-weight: normal;}
+.col-text-section-kelas .item-kelas{border-top: 1px solid #d4d4d8;}
+
 .col-text-swiper{
     background-color: white;
     padding: 10px 20px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
-.col-text-section-kelas{ padding: 20px 50px 0px 0px; }
-.col-text-section-kelas p i{padding-right: 10px; font-size: 20px;}
+@media only screen and (min-width : 300px){
+    .container-section-kelas{padding: 50px 0px;}
+    .col-text-section-kelas{padding: 20px 50px;}
+
+    .col-text-section-kelas h5{font-size: 17px;}
+    .col-text-section-kelas p i{padding: 0px 10px 0px 3px; font-size: 17px;}
+
+    .col-text-section-kelas .item-kelas{ margin-top: 20px; padding: 15px 0px; line-height: 1.8;}
+    .swipper-kelas{padding: 0px 0px 0px 35px;}
+}
+
+@media only screen and (min-width : 1024px){
+    .col-for-swiper{margin: auto;}
+}
+
+@media only screen and (min-width : 1440px){
+    .swipper-kelas{padding: 0;}
+}

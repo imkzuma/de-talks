@@ -21,17 +21,19 @@ export default function SectionKelas(){
                         <h1>Kelas Design Figma</h1>
                         <p><i class="fa fa-bookmark" aria-hidden="true" />4 Kelas</p>
                         <p><i class="fa fa-users" aria-hidden="true" />1k Siswa belajar di Kelas ini.</p>
-                        <hr className = "divider-section-kelas"/>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                            when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                            It has survived not only five centuries, but also the leap
-                        </p>
+                       <Col lg = {12} className = "item-kelas">
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                                It has survived not only five centuries, but also the leap
+                            </p>
+                       </Col>
+                        
 
                     </Col>
-                    <Col lg = {6}>
-                        <Swiper slidesPerView={1.5} navigation className="swipper-kelas">
+                    <Col lg = {6} className = "col-for-swiper">
+                        <Swiper slidesPerView={1.5} navigation spaceBetween={10} className="swipper-kelas">
                             <SwiperSlide>
                                 <Col lg = {11} className = "col-text-swiper mx-auto">
                                     <img src = {img} width = "100%"/>

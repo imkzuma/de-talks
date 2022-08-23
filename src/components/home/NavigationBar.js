@@ -1,13 +1,14 @@
 import { useEffect, useState } from 'react';
+
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import './style/NavigationBar.css';
 import Logo from "../../img/Logo.png";
 import LogoMobile from "../../img/Logo-Mobile.png";
-import { Button } from 'react-bootstrap';
+
+import './style/NavigationBar.css';
 
 export default function NavigationBar() {
     const expand = 'lg';

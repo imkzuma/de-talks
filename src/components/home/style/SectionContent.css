@@ -3,7 +3,7 @@
     font-family: var(--Nunito);
 }
 
-.SectionContent-title h1{color: var(--blue); font-weight: 900;}
+.SectionContent-title h1{color: var(--blue); font-weight: 700;}
 .SectionContent-title h5{color: var(--pink); font-weight: 300;}
 
 .row-inside-content{
@@ -46,4 +46,8 @@
 @media only screen and (min-width : 1280px){
     .col-text-content{border-left: 3px solid var(--blue);}
     .row-inside-content{padding: 20px 0px;}
+}
+
+@media only screen and (min-width : 1440px){
+    .col-image-content img{width: 65%;}
 }
