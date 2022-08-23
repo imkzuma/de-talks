@@ -1,0 +1,141 @@
+.Header{
+    width : 100%;
+    background: url("../../../img/bg-header.png");
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 20vh;
+    font-family: var(--Nunito);
+}
+
+.arrow{padding-left: 10px;}
+.col-img-header{overflow: hidden;}
+
+.col-text-header h1{font-weight: 900; color: white;}
+.col-text-header h1 span{
+    background: linear-gradient(90deg, #FB067F 0%, #DD3EF2 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text; text-fill-color: transparent;
+}
+.col-text-header p{color: #BB86FF; padding-bottom: 25px;}
+.col-text-header h5{color : #FF427E;}
+
+.btn-header-bg , .btn-header-nobg{ padding: 20px 30px; }
+
+.btn-header-bg{
+    border-radius: 35px; border: 1px solid #FB067F; 
+    background: linear-gradient(90deg, #FB067F 0%, #DD3EF2 100%); 
+    transition: .9s ease-out; border: none;
+}
+.btn-header-bg:hover{
+    background: linear-gradient(90deg, #FB067F 100%, #DD3EF2 0%); 
+    transition: .3s ease-in; border: none;}
+
+.btn-header-nobg{
+    background: linear-gradient(90deg, #FB067F 0%, #DD3EF2 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text; text-fill-color: transparent;
+    font-weight: bold; transition: .3s ease-out;
+    border: none;
+}
+.btn-header-nobg:hover{
+    background: linear-gradient(90deg, #ffffff 0%, #954c9e 100%); 
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text; text-fill-color: transparent;
+    font-weight: bold; border:none;
+    transition: .3s ease-in;
+}
+
+
+
+
+
+@media only screen and (min-width : 300px){
+    .row-header{ padding: 130px 15px 20px; }
+    .btn-header-bg , .btn-header-nobg{ width: 100%; margin-bottom: 10px; }
+    .col-img-header{margin: 0; width: 0; visibility: hidden;}
+    .col-text-header p{font-size: 17px;}
+    .col-text-header h1{font-size: 40px;}
+    
+    .circle , .circle-two , .gear , .rectangle , .cube {visibility: hidden; position: absolute;}
+}
+
+@media only screen and (min-width: 411px){
+    .col-text-header h1{font-size: 50px;}
+}
+
+@media only screen and (min-width : 768px){
+    .col-img-header{width: 100%; visibility: visible; margin-top: 100px; margin-bottom: 50px;}
+    .btn-header-bg , .btn-header-nobg { width: 45%;}
+}
+
+@media only screen and (min-width : 1024px){
+    .col-text-header{width: 50%;}
+    .col-img-header{width: 50%;}
+    .row-header{padding-top: 180px;}
+    .btn-header-bg , .btn-header-nobg{width: auto;}
+
+    /* Animation */
+    .circle , .circle-two , .gear , .rectangle , .cube {visibility: visible; position: absolute;}
+    .circle{
+        top: 100px;
+        right: 50px;
+        width: 150px;
+        animation-name: bounce;
+        animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        z-index: 999;
+    }
+
+    .circle-two{
+        top: 600px;
+        left: 50px;
+        width: 100px;
+        animation-name: bounce;
+        animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        z-index: 999;
+    }
+
+    .rectangle{
+        top: 0;
+        left: 300px;
+        width: 150px;
+        animation-name: spin;
+        animation-duration: 5000ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear; 
+    }
+
+    .cube{
+        z-index: 999;
+        top: 140px;
+        right: 650px;
+        width: 150px;
+        animation-name: spin;
+        animation-duration: 8000ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear; 
+    }
+    .gear{
+        z-index: 999;
+        top: -40px;
+        left: -30px;
+        width: 70px;
+        animation-name: spin;
+        animation-duration: 5000ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear; 
+    }
+}
+
+@media only screen and (min-width : 1440px){
+    .col-img-header{width: 55%; margin: 0; padding: 0;}
+    .row-header{padding: 200px 0px 100px;}
+    .col-text-header{width: 45%;}
+    .col-text-header h1{font-size: 60px;}
+    .col-text-header p{font-size: 20px;}
+    .col-img-header img{width: 100%;}
+}

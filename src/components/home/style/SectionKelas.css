@@ -1,0 +1,14 @@
+.Section-Kelas{
+    padding: 80px 0px; font-family: var(--Nunito); 
+    background-color: white;
+    overflow-x: hidden;
+}
+.container-section-kelas{background-color: #f4f4f5; padding: 50px 0px 50px 50px; border-radius: 5px;}
+.col-text-swiper{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.col-text-section-kelas{ padding: 20px 50px 0px 0px; }
+.col-text-section-kelas p i{padding-right: 10px; font-size: 20px;}

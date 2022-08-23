@@ -1,0 +1,17 @@
+.Section-About{
+    width: 100%; 
+    background-color: var(--white);
+    font-family: var(--Nunito);
+    padding: 100px 0px 50px;
+}
+.section-about-title{padding-bottom: 50px;}
+
+.accordion-item{border: none;}
+.accordion-button:not(.collapsed){
+    background-color: transparent; border: none;
+}
+
+.animate{animation: fadeIn;
+    animation-duration: 2s;
+    animation-fill-mode: both;}
+.accordion-button:is(.collapsed){background-color: transparent;}
