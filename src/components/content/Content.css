@@ -1,0 +1,70 @@
+.Content{
+   width: 100%;
+   margin-top: -50px;
+   padding-bottom: 0px;
+   font-family: 'Nunito', sans-serif;
+}
+.Content-fluid{padding: 0px 100px;}
+.Judul-Content h1{font-weight: 900;color: #222831;}
+.Judul-Content h1 span{color: #00ADB5;}
+.Judul-Content p{color: #00ADB5;}
+.Row-Content{margin-top: 50px;}
+
+.Card-Kelas{
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transition: 0.4s ease-out;
+}
+.Card-Kelas:hover{
+    margin-top: -10px;
+    transition: 0.4s ease-in;
+    cursor: pointer;
+}
+
+.Card-Kelas img{width: 100%;}
+.Card-Kelas h5{ font-weight: 700; color: #222831; }
+.Card-Kelas p{ color: #8B8A99; font-weight: 500; }
+
+@media screen and (min-width : 300px) {
+    .Content{margin-top: -150px;}
+    .Content-fluid{padding: 0 30px;}
+
+    .Judul-Content h1{font-size: 30px; padding: 0;}
+    .Judul-Content p{padding: 0px;}
+
+    .Card-Kelas{padding: 15px; margin-bottom: 30px;}
+    .Card-Kelas h5{padding: 20px 0px 30px 0px; line-height: 28px; font-size: 19px;}
+    .Card-Kelas img{border-radius: 10px;}
+}
+
+@media screen and (min-width : 411px) {
+    .Judul-Content h1{font-size: 40px;}
+}
+
+@media screen and (min-width : 520px) {
+    .Content-fluid{padding: 0 50px;}
+    .Judul-Content h1{font-size: 45px;}
+}
+
+@media screen and (min-width : 768px) {
+    .Content-fluid{padding: 0 100px;}
+    .Card-Kelas img{height: 30vh;}
+    .Card-Kelas h5{font-size: 25px; padding-top: 30px;}
+}
+
+@media screen and (min-width : 1024px) {
+    .Content{margin-top: -100px;}
+    .Content-fluid{padding: 0 30px;}
+    .Card-Kelas img{height: 20vh;}
+    .Card-Kelas h5{font-size: 18px;}
+}
+
+@media screen and (min-width : 1440px) {
+    .Content{margin-top: -50px;}
+    .Content-fluid{padding: 0 100px;}
+    .Judul-Content h1{font-size: 50px;}
+    .Card-Kelas h5{font-size: 22px;}
+    .Card-Kelas img{height: 30vh;}
+}

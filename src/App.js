@@ -1,13 +1,22 @@
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "font-awesome/css/font-awesome.min.css";
+import "./App.css";
 
-import Home from './components/home/Home';
+import Header from './components/header/Header';
+import Navbar from './components/navbar/NavigationBar';
+import Content from './components/content/Content';
+import ContentTwo from './components/content-two/ContentTwo';
+import ContentThird from './components/content-third/ContentThird';
+
 
 export default function App() {
+
   return (
     <>
-      <Home />
+      <Navbar />
+      <Header />
+      <Content />
+      <ContentTwo />
+      <ContentThird />
     </>
   );
 }

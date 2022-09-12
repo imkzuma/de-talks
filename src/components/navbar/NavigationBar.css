@@ -1,0 +1,127 @@
+.sticky{
+    top: 0;
+    position: sticky;
+    backdrop-filter: blur(10.9px);
+    -webkit-backdrop-filter: blur(10.9px); 
+    transition: 0.4s ease-in;
+    color: white;
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 99;
+}
+
+.Navbar{
+    padding: 30px 300px;
+    transition: 0.4s ease-out;
+    font-family: 'Nunito', sans-serif;
+    z-index: 99;
+}
+
+.Navbar a{
+    color: #222831;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+.Navbar a:hover{
+    color: #00ADB5;
+}
+
+.Nav-Search{
+    margin-left: 90px;
+}
+
+.Nav-Link , .Nav-Dropdown{
+    margin-right: 40px;
+    white-space: nowrap;
+}
+
+.Offcanvas-header{
+    padding: 50px 50px 0px 50px;
+}
+
+.Offcanvas-body{
+    padding: 20px 50px 0px 50px;
+}
+
+.Nav-Span-one {
+    margin-right: 20px; 
+    background-color: #393E46; 
+    border-radius: 10px;
+    transition: 0.4s ease-out;
+    width: auto;
+}
+.Nav-Span-one:hover{
+    background-color: #292c3f; 
+    transition: 0.4s ease-in;
+}
+.Nav-Span-two {
+    background-color: #00ADB5;
+    border-radius: 10px;
+    transition: 0.4s ease-out;
+    width: auto;
+}
+.Nav-Span-two:hover{
+    background-color: #01868d;
+    transition: 0.4s ease-in;
+}
+
+.Nav-Span-one span , .Nav-Span-two span{
+    padding: 30px;
+    color: white;
+    white-space: nowrap;
+}
+
+
+.Nav-Dropdown-Item{
+    padding: 10px 55px 10px 20px; 
+    width: 92%;
+    margin: auto;
+    transition: 0.2s ease-out;
+    border-radius: 5px;
+}
+.Nav-Dropdown-Item:hover{
+    transition: 0.2s ease-in;
+    background-color: #00ADB5;
+    border-radius: 5px;
+    color: white !important;
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1440){
+    .Brand img{width: 18%}
+}
+
+@media screen and (max-width : 990px){
+    .Nav-Span-one , .Nav-Span-two{
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width: 750px) and (max-width : 1400px) {
+    .Navbar{
+        padding: 30px 50px;
+    }
+    
+    .Nav-Link{
+        margin-right: 20px;
+        display: inline;
+    }
+    .Nav-Span-one {
+        margin-right: 20px;
+    }
+}
+@media screen and (min-width : 300px) and (max-width: 750px){
+    .Navbar{
+        padding: 30px 30px;
+    }
+    .Brand{
+        width: 60%;
+    }
+    .Brand img{
+        width: 20%;
+    }
+}
+

@@ -1,54 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;900&display=swap');
 
-
 body{
-  padding: 0px; margin: 0px;
-  background-color: #f4f4f5 !important;
-}
-
-:root{
-  /*Colors*/
-  --white : #fff;
-  --green : #68CC8E;
-  --green-hover : #43a167;
-  --grey : #D6D1F1;
-  --purple : #7147E9;
-  --purple-hover : #5733b9;
-  --dark-purple : #0B0A4F;
-  --pink : #FF427E;
-  --blue : #270B55;
-  --bg : #f4f4f5;
-
-  /*Fonts*/
-  --h1 : 50px;
-  --h1-mobile : 40px;
-  --p : 17px;
-  --blacked : 900;
-  --Nunito : "Nunito" , sans-serif;
-}
-
-/* Animation */
-@keyframes bounce {
-  0%   { transform: scale(1,1)      translateY(0); }
-  10%  { transform: scale(1.1,.9)   translateY(0); }
-  30%  { transform: scale(.9,1.1)   translateY(-100px); }
-  50%  { transform: scale(1.05,.95) translateY(0); }
-  57%  { transform: scale(1,1)      translateY(-7px); }
-  64%  { transform: scale(1,1)      translateY(0); }
-  100% { transform: scale(1,1)      translateY(0); }
-}
-
-@keyframes spin {
-  from {
-      transform:rotate(0deg);
-  }
-  to {
-      transform:rotate(360deg);
-  }
-}
-
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+    background-color: #F0F6FF;
 }

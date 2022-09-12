@@ -1,0 +1,53 @@
+.Content-Two{
+    width: 100%;
+    margin-top: 100px;
+    background-color: white;
+    font-family: "Nunito" , sans-serif;
+}
+.Container-Content-Two{margin: auto;}
+
+.img-content-two{ padding: 30px;}
+.Accordion-Item{text-align: left; border: 1px solid #00ADB5;}
+
+.Header-Accordion d{font-weight: 500; color: #222831; }
+.Body-Accordion h5{font-weight: 500; color: #8B8A99; font-size: 16px; line-height: 28px; }
+.text-content-two p{color: #00ADB5;}
+.text-content-two h1{font-weight: 900; color: #222831; }
+.text-content-two h1 span{color: #00ADB5;}
+
+@media screen and (min-width : 300px) {
+    .Content-Two{padding: 0px 0px 50px 0px;}
+    .img-content-two{ padding: 10px; margin-top: 50px; }
+    .text-content-two{ margin-top: 30px; padding: 0px 30px;}
+    .text-content-two h1{font-size: 35px; padding-bottom: 10px;}
+    .Accordion-Item{margin-top: 10px;}
+}
+
+@media screen and (min-width : 425px) {
+    .text-content-two h1{font-size: 40px;}
+}
+
+@media screen and (min-width : 520px) {
+    .Container-Content-Two{padding: 0px 25px;}
+    .text-content-two h1{padding-bottom: 20px;}
+}
+
+@media screen and (min-width : 768px) {
+    .Container-Content-Two{padding: 0px 50px;}
+    .text-content-two{margin-top: 80px;}
+    .text-content-two h1{font-size: 50px;}
+}
+
+@media screen and (min-width : 1024px) {
+    .Container-Content-Two{padding: 20px 20px;}
+    .text-content-two h1{font-size: 40px;}
+    .img-content-two{margin-top: 80px;}
+}
+
+@media screen and (min-width : 1440px){
+    .Content-Two{padding-bottom: 120px;}
+    .Container-Content-Two {padding: 0px;}
+    .text-content-two{margin-top: 200px; padding: 0 0 0 20px;}
+    .img-content-two{padding: 30px;}
+    .text-content-two h1{font-size: 50px;}
+}
