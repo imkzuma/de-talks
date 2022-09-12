@@ -1,0 +1,24 @@
+.Section-Kelas-Two{width: 100%; font-family: var(--Nunito);}
+
+.section-two-title h1{color: var(--blue); font-weight: 700;}
+.section-two-title h5{color: var(--pink);}
+
+.col-section-two img{border-radius: 10px;}
+.col-section-two h5{color: var(--blue); font-weight: 700;}
+.col-section-two p{color: grey;}
+
+@media only screen and (min-width : 300px){
+    .section-two-title{padding: 80px 15px 30px;}
+    .section-two-title h5{font-size: 15px;}
+
+    .row-section-two{padding: 0 15px;}
+    .col-section-two h5{padding: 15px 0px;}
+    .col-section-two{margin-bottom: 50px;}
+}
+
+@media only screen and (min-width : 1024px) {
+    .section-two-title{padding: 100px 20px 40px;}
+    .section-two-title h5{font-size: 17px;}
+    .col-section-two{padding: 0px 20px;}
+    
+}

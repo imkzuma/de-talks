@@ -7,10 +7,17 @@
 .section-about-title p{color: grey;}
 
 .accordion-item{border: none;}
-.accordion-button:not(.collapsed){background-color: transparent; border: none;}
+.accordion-button:focus{outline: 0; border: 0;}
+.accordion-button:not(.collapsed){background-color: transparent; border: none; color: var(--blue); font-weight: 700;}
 .accordion-button:is(.collapsed){background-color: transparent;}
 
 .animate{
+    animation: fadeIn;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+.animate:is(.active){
     animation: fadeIn;
     animation-duration: 2s;
     animation-fill-mode: both;
@@ -39,5 +46,6 @@
     .accordion-item{font-size: 17px;}
 }
 @media only screen and (min-width : 1440px){
+    .Section-About{padding: 100px 0px 0px;}
     .section-about-title h1{font-size: 35px;}
 }

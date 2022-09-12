@@ -6,6 +6,27 @@
 }
 .container-section-kelas{background-color: #f4f4f5; border-radius: 5px;}
 
+.swiper-prev , .swiper-next{
+    margin: 0px 5px; 
+    border-radius: 50%;
+    background-color: transparent;
+    color: var(--blue) !important;
+    border: 2px solid var(--blue) !important;
+}
+.swiper-prev:hover , .swiper-next:hover{
+    background-color: transparent;
+    color: var(--blue);
+    border: 2px solid var(--blue);
+}
+
+.swiper-next:focus , .swiper-prev:focus{
+    background-color: transparent;
+    color: var(--blue);
+    border: 2px solid var(--blue);
+    outline: none;
+}
+
+
 .col-text-section-kelas h5{color: var(--pink);}
 .col-text-section-kelas h1{color: var(--blue); font-weight: 700;}
 .col-text-section-kelas p{color: #3f3f46; font-weight: 700;}
@@ -20,19 +41,23 @@
 
 @media only screen and (min-width : 300px){
     .container-section-kelas{padding: 50px 0px;}
-    .col-text-section-kelas{padding: 20px 50px;}
+    .col-text-section-kelas{padding: 20px 50px 0px;}
 
     .col-text-section-kelas h5{font-size: 17px;}
     .col-text-section-kelas p i{padding: 0px 10px 0px 3px; font-size: 17px;}
 
     .col-text-section-kelas .item-kelas{ margin-top: 20px; padding: 15px 0px; line-height: 1.8;}
     .swipper-kelas{padding: 0px 0px 0px 35px;}
+
+    .swiper-navigation{margin: 0px 30px 20px;}
 }
 
 @media only screen and (min-width : 1024px){
-    .col-for-swiper{margin: auto;}
+    .col-for-swiper{margin: auto 0;}
+    .swiper-navigation{margin: 0px 20px 20px;}
 }
 
 @media only screen and (min-width : 1440px){
-    .swipper-kelas{padding: 0;}
+    .col-text-section-kelas{margin: auto ;}
+    .swipper-kelas{padding: 0px 50px; }
 }

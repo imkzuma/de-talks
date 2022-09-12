@@ -1,0 +1,64 @@
+.Section-Belajar{
+    width: 100%; font-family: var(--Nunito); 
+    background: url("../../../img/bg-section-belajar.png") fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.col-text-section-belajar h1{color: var(--white); font-weight: 700;}
+.col-text-section-belajar h5{color: var(--pink);}
+.col-text-section-belajar p{color: #BB86FF; font-weight: normal;}
+
+.btn-section-belajar{
+    border-radius: 30px; border: 1px solid #FB067F; 
+    background: linear-gradient(90deg, #FB067F 0%, #DD3EF2 100%); 
+    transition: .9s ease-out; border: none;
+    padding: 20px 30px;
+}
+.btn-section-belajar:hover{
+    background: linear-gradient(90deg, #FB067F 100%, #DD3EF2 0%); 
+    transition: .9s ease-out; border: none;
+}
+
+.col-img-section-belajar{padding: 0px;}
+
+@media only screen and (min-width : 300px){
+    .Section-Belajar{
+        margin-top: -80px;
+        background-position: right;
+    }
+    .row-section-belajar{padding: 50px 10px;}
+
+    .col-img-section-belajar{padding: 0px 20px;}
+    .col-text-section-belajar{padding: 0px 20px; margin-bottom: 40px;}
+    .col-text-section-belajar h5{font-size: 17px;}
+    .col-text-section-belajar p{line-height: 1.8; padding-top: 5px; font-size: 15px;}
+
+    .btn-section-belajar{font-size: 15px;}
+}
+
+@media only screen and (min-width : 768px){
+    .Section-Belajar{margin-top: 0px;}
+
+    .col-text-section-belajar{ padding: 0px; margin: auto; }
+    .col-img-section-belajar{ margin: auto; }
+}
+
+@media only screen and (min-width : 1024px){
+    .Section-Belajar{background-position: center;}
+    .col-img-section-belajar{padding: 20px; }
+    
+    .col-img-section-belajar img{transition: all .5s ease-out;}
+    .col-img-section-belajar img:hover{
+        transform: scale(1.1) rotate(-10deg);
+        transition: all .5s ease-in;
+    }
+
+    .row-section-belajar{padding: 50px 0px;}
+
+    .col-text-section-belajar{padding: 0px 20px;}
+    .col-text-section-belajar p{font-size: 17px;}
+
+    .btn-section-belajar{margin-top: 15px;}
+}
